@@ -1,0 +1,85 @@
+.body{
+    background-color: rgb(71, 71, 71);
+}
+.titlebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline;
+    padding: 2vw;
+    background-color: black;
+    border: 12vw;
+    color :white;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-width: 2vw ;
+}
+.overviewe{
+    position:absolute;
+    display: inline;
+    left: 6vw;
+    top:0.5vw;
+    font-family: cursive;
+    word-spacing: 20px;
+    opacity: 0.8;
+}
+.special{
+    position:absolute;
+    display: inline;
+    left: 8vw;
+    top:1.4vw;
+    font-family: cursive;
+    word-spacing: 20px;
+    opacity: 1;
+}
+.achieve{
+    position:absolute;
+    display: inline;
+    left: 19vw;
+    top:1.4vw;
+    font-family: cursive;
+    word-spacing: 20px;
+    opacity: 1;
+}
+.more{
+    position:absolute;
+    display: inline;
+    left: 30.1vw;
+    top:1.4vw;
+    font-family: cursive;
+    word-spacing: 20px;
+    opacity: 1;
+}
+.menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+.over:hover {
+    text-decoration: double;
+    color:rgb(100, 94, 94);
+    text-shadow: 0px 0px 0px white;
+}
+.achieve:hover {
+    text-decoration: double;
+    color:rgb(100, 94, 94);
+    text-shadow: 0px 0px 0px white;
+}
+.special:hover {
+    text-decoration: double;
+    color:rgb(100, 94, 94);
+    text-shadow: 0px 0px 0px white;
+}
+.more:hover {
+    text-decoration: double;
+    color:rgb(100, 94, 94);
+    text-shadow: 0px 0px 0px white;
+}
+.cube1:hover{
+    width: 35px;
+    height : 35px;
+}
