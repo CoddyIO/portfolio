@@ -119,3 +119,37 @@
     height:290px;
 
 }
+.name{
+    font-size:43px ;
+    color: white;
+    position: absolute;
+    top: 4vw;
+    left: 2vw;
+    animation: jatin 1s infinite;
+
+}
+.age{
+    font-size:43px ;
+    color: white;
+    position: absolute;
+    top: 10vw;
+    left: 2vw;
+    animation: jatin 1s infinite;
+
+}
+.class{
+    font-size:43px ;
+    color: white;
+    position: absolute;
+    top: 16vw;
+    left: 2vw;
+    animation: jatin 1s infinite;
+
+}
+@keyframes jatin {
+    0%{color: aquamarine;}
+    25%{color: blueviolet;}
+    50%{color: brown;}
+    75%{color:blue}
+    100%{color:red}    
+}
